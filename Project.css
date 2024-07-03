@@ -1,0 +1,121 @@
+body{
+	box-sizing: border-box;
+}
+nav{
+	height: 100px;
+	width: 100%;
+	background-color: #00FFFF;
+}
+.logo{
+	width: 200px;
+	height: 88px;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+ol{
+	list-style: none;
+	float: right;
+}
+ol li{
+	display: inline-block;
+	margin: 10px;
+	font-size: small;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+ol li a{
+	text-decoration: none;
+	font-size: large;
+	color: #000000;
+}
+ol li a:hover{
+	color: #008080;
+}
+.gents{
+	background-color: lavender;
+	height: 500px;
+	align-items: baseline;
+}
+.ladies{
+	background-color: chocolate;
+	height: 500px;
+	align-items: baseline;
+}
+.childrren{
+	background-color: cadetblue;
+	height: 500px;
+	align-items: baseline;
+}
+h1{
+	font-size: xx-large;
+	text-align: center;
+	margin-left: 20px;
+	color: black;
+	font-family: sans-serif;
+}
+section{
+	width: 100%;
+	height: 500px;
+	background: darkgrey;
+	padding-top: 5px;
+}
+.container{
+	margin: auto;
+	max-width: 1200px;
+	background-color: #FFFFFF;
+	overflow: auto;
+}
+.gallery{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: auto;
+}
+.gallery img{
+	width: auto;
+	height: 150px;
+}
+.caption{
+	text-align: center;
+	font-family: serif;
+}
+.men{
+    height: 400px;
+    width: auto;
+    background-color: darkseagreen;
+}
+.women{
+    height: 400px;
+    width: auto;
+    background-color: darkseagreen;
+}
+.children{
+    height: 400px;
+    width: auto;
+    background-color: darkseagreen;
+}
+footer{
+	width: 100%;
+	height: 400px;
+	background: aquamarine;
+	text-align: center;
+	color: darkblue;
+	padding-top: 25px;
+	list-style: none;
+	align-items: center;
+	position: relative;
+}
+.social-icons ul {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	padding: 0;
+	margin: 0;
+	transform: translate(-50%, -50%);
+	display: flex;
+}
+.social-icons ul li {
+	list-style: none;
+	margin: 0 15px;
+}
